@@ -288,19 +288,52 @@ h1, h2, p { margin: 0; }
   .contact-button .arrow-small { width: 6.86px; height: 12px; }
 
   /* Обо мне */
-  .about.flip-card {
-    display: grid; grid-template-rows: 46px 0fr;
-    width: 100%; height: auto; perspective: none; background: #000;
-    transition: grid-template-rows .24s ease;
-  }
-  .about.flip-card.is-open { grid-template-rows: 46px 1fr; }
-  .about-toggle {
-    display: flex; align-items: center; justify-content: space-between;
-    width: 100%; height: 46px; padding: 0 14px 0 10px;
-    border: 0; background: #000; color: #fff;
-    font-family: 'Tiny5',monospace; font-size: 24px; font-weight: 400;
-    line-height: 1.1; text-transform: uppercase; text-align: left; cursor: pointer;
-  }
+ 
+.about.flip-card {
+  display: grid;
+  grid-template-rows: 74px 0fr;
+
+  width: 100%;
+  height: auto;
+  perspective: none;
+  background: #000;
+
+  transition: grid-template-rows .24s ease;
+}
+
+.about.flip-card.is-open {
+  grid-template-rows: 46px 1fr;
+}
+
+ 
+.about-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100%;
+  padding: 0 14px 8px 10px;
+
+  border: 0;
+  background: #000;
+  color: #fff;
+
+  font-family: 'Tiny5', monospace;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* В раскрытом состоянии центрируем как раньше */
+
+.about.is-open .about-toggle {
+  padding-bottom: 0;
+}
+
   .about-toggle .about-toggle-arrow {
     width: 9px; height: 16px; transform: rotate(90deg);
     transform-origin: center; transition: transform .22s ease;
