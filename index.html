@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Сергей Быстров — дизайнер</title>
+    <meta name="description" content="Сергей Быстров — дизайнер. Веб, редакционный дизайн, плакаты и полиграфия. Проекты и контакты.">
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <main class="portfolio">
+
+  <!-- Первый экран -->
+  <header class="hero">
+    <h1>Сергей Быстров</h1>
+
+    <div class="hero-content">
+      <div class="hero-left">
+        <p class="hero-description">
+          Мне интересно попробовать себя в&nbsp;разных
+          областях дизайна&nbsp;— от&nbsp;веба
+          до&nbsp;полиграфии. Открыт для&nbsp;предложений
+          по&nbsp;сотрудничеству.
+        </p>
+
+        <nav class="contacts" aria-label="Контакты">
+          <a
+  class="contact-button"
+  href="mailto:sergey.bystrov.87@yandex.ru"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+            Почта
+            <span class="arrow arrow-small" aria-hidden="true"></span>
+          </a>
+
+          <a
+            class="contact-button"
+            href="https://t.me/uglypumba"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Телеграм
+            <span class="arrow arrow-small" aria-hidden="true"></span>
+          </a>
+        </nav>
+      </div>
+
+      <!-- Карточка с фотографией -->
+      <div class="portrait-card">
+        <div class="portrait-label-box" aria-hidden="true">
+          <img
+            class="portrait-label-svg"
+            src="assets/images/card-title-designer.svg"
+            alt=""
+          >
+          <div class="portrait-label-fragments"></div>
+        </div>
+
+        <img
+          class="portrait"
+          src="assets/images/hero.png"
+          alt="Сергей Быстров"
+        >
+
+        <img
+          class="portrait-label-bottom"
+          src="assets/images/card-title-designer.svg"
+          alt=""
+          aria-hidden="true"
+        >
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Обо мне -->
+  <section class="about flip-card" aria-label="Обо мне">
+
+    <button
+      class="about-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="about-details"
+    >
+      <span>Обо мне</span>
+      <span
+        class="arrow arrow-big about-toggle-arrow"
+        aria-hidden="true"
+      ></span>
+    </button>
+
+    <div class="flip-inner">
+      <div class="flip-front about-front">
+        <div class="about-link">
+          <span class="about-text">Обо мне</span>
+          <span class="arrow arrow-big" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <div class="flip-back about-back" id="about-details">
+        <p>
+          С 2008 года работаю инженером техподдержки
+          на&nbsp;заводе. Занимаюсь ремонтом компьютеров
+          и&nbsp;оргтехники, прокладываю ЛВС, устанавливаю
+          и&nbsp;настраиваю ПО, взаимодействую
+          с&nbsp;поставщиками и&nbsp;веду склад.
+        </p>
+
+        <p>
+          В 2025 году решил сменить направление
+          и&nbsp;начал заниматься дизайном: прошёл обучение
+          <a
+            class="about-school-link"
+            href="https://bureau.ru/burosfera/sergey-bystrov"
+            target="_blank"
+            rel="noopener noreferrer"
+          >в&nbsp;Школе&nbsp;дизайнеров Бюро Горбунова</a>,
+          делал учебные и&nbsp;небольшие коммерческие проекты.
+        </p>
+
+        <p>
+          Сейчас продолжаю учиться и&nbsp;хочу больше
+          работать с&nbsp;реальными задачами — вебом,
+          редакционными материалами, полиграфией
+          и&nbsp;другими носителями.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Проекты -->
+  <section class="projects" aria-label="Проекты">
+
+    <!-- Мурнорка -->
+    <div class="project-murnorka flip-card">
+
+      <button
+        class="project-mobile-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="murnorka-details"
+      >
+        <span class="project-mobile-heading">
+          <span>Мурнорка</span>
+          <span class="project-mobile-arrow-wrap" aria-hidden="true">
+            <span class="arrow arrow-big project-mobile-arrow"></span>
+          </span>
+        </span>
+        <span class="project-mobile-summary">
+          Промостраница новой коллекции мехового ателье.
+          Учебный проект
+        </span>
+      </button>
+
+      <a
+        class="flip-inner"
+        id="murnorka-details"
+        href="https://codepen.io/sbystrov/full/BypPGVb"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="flip-front project">
+          <h2>
+            Мурнорка
+            <span class="arrow arrow-big" aria-hidden="true"></span>
+          </h2>
+          <p>
+            Промостраница новой коллекции мехового ателье.
+            Учебный проект
+          </p>
+        </div>
+
+        <div class="flip-back">
+          <div class="murnorka-back-info">
+            <h2>
+              Мурнорка
+              <span class="arrow arrow-big" aria-hidden="true"></span>
+            </h2>
+            <p>
+              <span class="desktop-caption">Открыть проект</span>
+              <span class="mobile-caption">Открыть учебный проект</span>
+            </p>
+          </div>
+          <img
+            src="assets/images/murnorka.png"
+            alt="Превью проекта Мурнорка"
+          >
+        </div>
+      </a>
+    </div>
+
+
+    <!-- Управляйка -->
+    <div class="project-upravlyayka flip-card">
+
+      <button
+        class="project-mobile-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="upravlyayka-details"
+      >
+        <span class="project-mobile-heading">
+          <span>Управляйка</span>
+          <span class="project-mobile-arrow-wrap" aria-hidden="true">
+            <span class="arrow arrow-big project-mobile-arrow"></span>
+          </span>
+        </span>
+        <span class="project-mobile-summary">
+          Обложка для сообщества в ВК
+        </span>
+      </button>
+
+      <a
+        class="flip-inner"
+        id="upravlyayka-details"
+        href="https://vk.ru/upravlyaika_rf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="flip-front project">
+          <h2>
+            Управляйка
+            <span class="arrow arrow-big" aria-hidden="true"></span>
+          </h2>
+          <p>Обложка для сообщества в ВК</p>
+        </div>
+
+        <div class="flip-back upravlyayka-back">
+          <h2>
+            Управляйка
+            <span class="arrow arrow-big" aria-hidden="true"></span>
+          </h2>
+          <img
+            src="assets/images/upravlyaika.png"
+            alt="Обложка сообщества Управляйка"
+          >
+          <p>Открыть ВК</p>
+        </div>
+      </a>
+    </div>
+
+
+    <!-- 8 Марта -->
+    <div class="project-march flip-card">
+
+      <button
+        class="project-mobile-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="march-details"
+      >
+        <span class="project-mobile-heading">
+          <span>8 Марта</span>
+          <span class="project-mobile-arrow-wrap" aria-hidden="true">
+            <span class="arrow arrow-big project-mobile-arrow"></span>
+          </span>
+        </span>
+        <span class="project-mobile-summary">Плакат</span>
+      </button>
+
+      <a
+        class="flip-inner"
+        id="march-details"
+        href="assets/images/poster-8marta.png"
+        data-lightbox
+      >
+        <div class="flip-front project">
+          <h2>
+            8 Марта
+            <span class="arrow arrow-big" aria-hidden="true"></span>
+          </h2>
+          <p>Плакат</p>
+        </div>
+
+        <div class="flip-back march-back">
+          <h2>
+            8 Марта
+            <span class="arrow arrow-big" aria-hidden="true"></span>
+          </h2>
+          <img
+            src="assets/images/poster-8marta.png"
+            alt="Плакат к 8 Марта"
+          >
+          <p>Смотреть плакат</p>
+        </div>
+      </a>
+    </div>
+
+
+    <!-- Кто студент -->
+    <div class="project-student flip-card">
+
+      <button
+        class="project-mobile-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="student-details"
+      >
+        <span class="project-mobile-heading">
+          <span>Кто студент</span>
+          <span class="project-mobile-arrow-wrap" aria-hidden="true">
+            <span class="arrow arrow-big project-mobile-arrow"></span>
+          </span>
+        </span>
+        <span class="project-mobile-summary">
+          Серия обложек для статей в студенческом журнале
+        </span>
+      </button>
+
+      <div class="flip-inner" id="student-details">
+        <div class="flip-front project">
+          <h2>
+            Кто студент
+            <span class="arrow arrow-big" aria-hidden="true"></span>
+          </h2>
+          <p>Серия обложек для статей в студенческом журнале</p>
+        </div>
+
+        <div class="flip-back student-back">
+
+          <a
+            class="student-cover align-left cover-shuplyak"
+            href="https://ktostudent.ru/ljudmila-shupljak/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Статья о Людмиле Шупляк"
+          >
+            <img
+              src="assets/images/shuplyak-TG.png"
+              alt="Обложка статьи о Людмиле Шупляк"
+            >
+            <span>Открыть статью</span>
+          </a>
+
+          <a
+            class="student-cover align-left cover-panfilova"
+            href="https://ktostudent.ru/irina-panfilova/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Статья об Ирине Панфиловой"
+          >
+            <img
+              src="assets/images/panfilova-TG.png"
+              alt="Обложка статьи об Ирине Панфиловой"
+            >
+            <span>Открыть статью</span>
+          </a>
+
+          <a
+            class="student-cover align-left cover-anatsko"
+            href="https://ktostudent.ru/dasha-anacko/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Статья о Даше Анацко"
+          >
+            <img
+              src="assets/images/anatsko-TG.png"
+              alt="Обложка статьи о Даше Анацко"
+            >
+            <span>Открыть статью</span>
+          </a>
+
+          <a
+            class="student-cover align-right cover-kostareva"
+            href="https://ktostudent.ru/olga-kostareva/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Статья об Ольге Костаревой"
+          >
+            <img
+              src="assets/images/kostareva-TG.png"
+              alt="Обложка статьи об Ольге Костаревой"
+            >
+            <span>Открыть статью</span>
+          </a>
+
+          <a
+            class="student-cover align-right cover-matveeva"
+            href="https://ktostudent.ru/natalja-matveeva/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Статья о Наталье Матвеевой"
+          >
+            <img
+              src="assets/images/matveeva-TG.png"
+              alt="Обложка статьи о Наталье Матвеевой"
+            >
+            <span>Открыть статью</span>
+          </a>
+
+          <a
+            class="student-cover align-right cover-sichkar"
+            href="https://ktostudent.ru/elena-sichkar/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Статья о Елене Сичкар"
+          >
+            <img
+              src="assets/images/sichkar-TG.png"
+              alt="Обложка статьи о Елене Сичкар"
+            >
+            <span>Открыть статью</span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Афиша 1 -->
+    <div class="project-poster-one flip-card">
+
+      <button
+        class="project-mobile-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="poster-one-details"
+      >
+        <span class="project-mobile-heading">
+          <span>Афиша 1</span>
+          <span class="project-mobile-arrow-wrap" aria-hidden="true">
+            <span class="arrow arrow-big project-mobile-arrow"></span>
+          </span>
+        </span>
+        <span class="project-mobile-summary">
+          Афиша концерта в ДК Приход
+        </span>
+      </button>
+
+      <a
+        class="flip-inner"
+        id="poster-one-details"
+        href="assets/images/afisha1.png"
+        data-lightbox
+      >
+        <div class="flip-front project">
+          <h2>
+            Афиша 1
+            <span class="arrow arrow-big" aria-hidden="true"></span>
+          </h2>
+          <p>Афиша концерта в ДК Приход</p>
+        </div>
+
+        <div class="flip-back poster-back">
+          <h2>
+            Афиша 1
+            <span class="arrow arrow-big" aria-hidden="true"></span>
+          </h2>
+          <img
+            src="assets/images/afisha1.png"
+            alt="Афиша концерта 1"
+          >
+          <p>Смотреть афишу</p>
+        </div>
+      </a>
+    </div>
+
+
+    <!-- Афиша 2 -->
+    <div class="project-poster-two flip-card">
+
+      <button
+        class="project-mobile-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="poster-two-details"
+      >
+        <span class="project-mobile-heading">
+          <span>Афиша 2</span>
+          <span class="project-mobile-arrow-wrap" aria-hidden="true">
+            <span class="arrow arrow-big project-mobile-arrow"></span>
+          </span>
+        </span>
+        <span class="project-mobile-summary">
+          Афиша концерта в ДК Приход
+        </span>
+      </button>
+
+      <a
+        class="flip-inner"
+        id="poster-two-details"
+        href="assets/images/afisha2.png"
+        data-lightbox
+      >
+        <div class="flip-front project">
+          <h2>
+            Афиша 2
+            <span class="arrow arrow-big" aria-hidden="true"></span>
+          </h2>
+          <p>Афиша концерта в ДК Приход</p>
+        </div>
+
+        <div class="flip-back poster-back">
+          <h2>
+            Афиша 2
+            <span class="arrow arrow-big" aria-hidden="true"></span>
+          </h2>
+          <img
+            src="assets/images/afisha2.png"
+            alt="Афиша концерта 2"
+          >
+          <p>Смотреть афишу</p>
+        </div>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="footer-info">
+      <p>Сергей Быстров, дизайнер</p>
+      <p>г. Владимир, 2026 г.</p>
+    </div>
+
+    <div class="footer-contacts">
+      <a
+  href="mailto:sergey.bystrov.87@yandex.ru"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Написать на почту"
+>
+        <img
+          src="assets/images/icon-mail.svg"
+          alt=""
+        >
+      </a>
+
+      <a
+        href="https://t.me/uglypumba"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Телеграм"
+      >
+        <img
+          src="assets/images/icon-tg.svg"
+          alt=""
+        >
+      </a>
+    </div>
+  </footer>
+
+</main>
+
+
+<!-- Попап для плакатов и афиш -->
+<dialog class="lightbox" aria-label="Просмотр изображения">
+  <button
+    class="lightbox-close"
+    type="button"
+    aria-label="Закрыть"
+  >×</button>
+  <img class="lightbox-image" alt="">
+</dialog>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
